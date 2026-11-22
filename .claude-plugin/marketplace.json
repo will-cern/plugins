@@ -1,0 +1,16 @@
+{
+  "name": "will-cern-plugins",
+  "owner": {
+    "name": "will-cern"
+  },
+  "metadata": {
+    "description": "Plugins from will-cern"
+  },
+  "plugins": [
+    {
+      "name": "personify",
+      "source": "./plugins/personify",
+      "description": "Set up AI-assisted support for a GitHub project by following the AI-assistant setup instructions in its README. Usage: /personify OWNER/REPO"
+    }
+  ]
+}

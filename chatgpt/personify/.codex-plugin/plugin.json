@@ -1,0 +1,20 @@
+{
+  "name": "personify",
+  "version": "0.1.0",
+  "author": {
+    "name": "Personify"
+  },
+  "description": "Set up AI-assisted support for a GitHub project by following the AI-assistant setup instructions in its README. Usage: @personify OWNER/REPO",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Personify",
+    "shortDescription": "Set up AI support for a GitHub project from its README",
+    "longDescription": "Reads the README of a GitHub repository through the GitHub app and, if it contains instructions for AI assistants on setting up AI-powered or AI-assisted support, summarises the planned actions and carries them out once you choose Continue. Choosing Cancel makes no changes. Usage: @personify OWNER/REPO",
+    "developerName": "Personify",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ]
+  }
+}
