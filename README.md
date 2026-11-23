@@ -6,7 +6,7 @@ A plugin marketplace for Claude, plus a ChatGPT build of the same plugin.
 
 | Plugin | Description |
 | --- | --- |
-| `personify` | Set up AI-assisted support for a GitHub project by following the AI-assistant instructions in its README. Usage: `/personify OWNER/REPO` (Claude) or `@personify OWNER/REPO` (ChatGPT). Shows the planned actions and asks you to click Continue or Cancel before changing anything. |
+| `personify` | Set up AI-assisted support (aka a "Persona") for a GitHub project by following the AI-assistant instructions in its README. Usage: `/personify OWNER/REPO` (Claude) or `@personify OWNER/REPO` (ChatGPT). Shows the planned actions and asks you to click Continue or Cancel before changing anything. |
 
 ## Add this marketplace to Claude
 
