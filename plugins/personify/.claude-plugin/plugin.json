@@ -1,5 +1,5 @@
 {
   "name": "personify",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Set up AI-assisted support for a GitHub project by following the AI-assistant setup instructions in its README. Usage: /personify OWNER/REPO (asks you to confirm first if it finds any security concerns)"
 }
