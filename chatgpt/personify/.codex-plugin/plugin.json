@@ -1,15 +1,15 @@
 {
   "name": "personify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "Personify"
   },
-  "description": "Set up AI-assisted support for a GitHub project by following the AI-assistant setup instructions in its README. Usage: @personify OWNER/REPO",
+  "description": "Set up AI-assisted support for a GitHub project by following the AI-assistant setup instructions in its README. Usage: @personify OWNER/REPO. Say @personify update to get the latest plugin as a zip.",
   "skills": "./skills/",
   "interface": {
     "displayName": "Personify",
     "shortDescription": "Set up AI support for a GitHub project from its README",
-    "longDescription": "Reads the README of a GitHub repository through the GitHub app and, if it contains instructions for AI assistants on setting up AI-powered or AI-assisted support, checks them for security risks or malicious actions and carries them out once you choose Continue. Choosing Cancel makes no changes. Usage: @personify OWNER/REPO",
+    "longDescription": "Reads the README of a GitHub repository through the GitHub app and, if it contains instructions for AI assistants on setting up AI-powered or AI-assisted support, checks them for security risks or malicious actions and carries them out once you choose Continue. Choosing Cancel makes no changes. Tells you when a newer version is available. Usage: @personify OWNER/REPO. Say @personify update to get the latest plugin as a zip.",
     "developerName": "Personify",
     "category": "Productivity",
     "capabilities": [
