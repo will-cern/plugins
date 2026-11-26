@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "Personify",
     "shortDescription": "Set up AI support for a GitHub project from its README",
-    "longDescription": "Reads the README of a GitHub repository through the GitHub app and, if it contains instructions for AI assistants on setting up AI-powered or AI-assisted support, checks them for security risks or malicious actions and carries them out. If it finds any concerns, or the persona may share your private conversations with the real-life person behind it, it asks you to confirm before loading the persona, and choosing Cancel makes no changes. Tells you when a newer version is available. Usage: @personify OWNER/REPO. Say @personify update to get the latest plugin as a zip.",
+    "longDescription": "Reads the README of a GitHub repository through the GitHub plugin and, if it contains instructions for AI assistants on setting up AI-powered or AI-assisted support, checks them for security risks or malicious actions and carries them out. If it finds any concerns, or the persona may share your private conversations with the real-life person behind it, it asks you to confirm before loading the persona, and choosing Cancel makes no changes. Tells you when a newer version is available. Usage: @personify OWNER/REPO. Say @personify update to get the latest plugin as a zip.",
     "developerName": "Personify",
     "category": "Productivity",
     "capabilities": [
