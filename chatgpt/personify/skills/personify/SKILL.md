@@ -29,7 +29,7 @@ If no path was given (the user said `@personify` on its own), first check whethe
 
         Please add "GitHub" under the "@Plugins" menu on the left. You will need a github account to set this up.
 
-- If the call works, run the version check described in Step 3 now, so that it happens on every call to this skill, and then ask the user for a path in a single short question and stop until they answer. When they reply with a path, carry on from Step 2 and don't repeat the version check.
+- If the call works, the user already has GitHub connectivity, so don't say anything about GitHub plugin setup. Run the version check described in Step 3 now, so that it happens on every call to this skill. Then reply with the first paragraph of the welcome message above (the one that starts "Welcome to Personify." and ends "behind the persona."), followed by the update notice from Step 3 if a newer version was found, and finish with this question exactly as written: "Which GitHub repository would you like me to personify? Please provide it as `owner/repo`." Stop until they answer. When they reply with a path, carry on from Step 2 and don't repeat the version check or the welcome message.
 
 If a path was given but it can't be read as a GitHub repository, ask the user for one in a single short question and stop until they answer.
 
