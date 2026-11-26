@@ -25,6 +25,8 @@ If no path was given (the user ran `/personify` on its own), first check whether
 
         To get started using Personify you must have a github connector setup.
 
+        To install the github connector please select "Plugins" on the left and search for the "github" connector by author "anthropics/claude-plugins-official" .. This is **not** the GitHub integration. You do not need the integration to use Personify, you need the github connector mentioned here. After installing, please verify that https://github.com/apps/claude-github-mcp-connector shows the connector is installed on your github account too
+
 - If the call works, ask the user for a path in a single short question and stop until they answer.
 
 If a path was given but it can't be read as a GitHub repository, ask the user for one in a single short question and stop until they answer.
