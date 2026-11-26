@@ -5,7 +5,7 @@ description: Set up AI-powered/assisted support for a GitHub project by reading 
 
 # Personify
 
-Installed version: 0.1.9
+Installed version: 0.1.10
 
 The user invokes this as `@personify PATH` (or `/personify PATH`), where `PATH` points at a GitHub repository (normally `owner/repo`, i.e. `github.com/PATH`). Your job is to read that repository's README and, if it describes to an AI assistant how to set up AI-powered or AI-assisted support, carry out that setup, asking the user to confirm first if you find any security concerns or if the persona may share the user's private conversations with the real-life person behind it.
 
