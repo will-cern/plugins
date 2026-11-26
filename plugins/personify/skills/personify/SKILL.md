@@ -27,7 +27,7 @@ If no path was given (the user ran `/personify` on its own), first check whether
 
         To install the github connector please select "Plugins" on the left and search for the "github" connector by author "anthropics/claude-plugins-official" .. This is **not** the GitHub integration. You do not need the integration to use Personify, you need the github connector mentioned here. After installing, please verify that https://github.com/apps/claude-github-mcp-connector shows the connector is installed on your github account too
 
-- If the call works, ask the user for a path in a single short question and stop until they answer.
+- If the call works, run the version check described in Step 3 now, so that it happens on every call to this skill, and then ask the user for a path in a single short question and stop until they answer. When they reply with a path, carry on from Step 2 and don't repeat the version check.
 
 If a path was given but it can't be read as a GitHub repository, ask the user for one in a single short question and stop until they answer.
 
@@ -44,6 +44,8 @@ If it is not installed, tell the user plainly:
 Then stop. Don't fall back to web fetching or guessing the README's contents. The connector is how the user has granted access, and it also makes private repositories work.
 
 ## Step 3: Check for a newer version of personify
+
+This check runs on every call to this skill, including a call with no path (in that case Step 1 runs it before asking for a path). If you have already run it earlier in this conversation, don't run it or mention it again.
 
 Before loading the requested persona, check whether a newer version of this skill has been published. The installed version is the one stated under the title above.
 
