@@ -29,7 +29,7 @@ If no path was given (the user said `@personify` on its own), first check whethe
 
         Please add "GitHub" under the "@Plugins" menu on the left. You will need a github account to set this up.
 
-- If the call works, ask the user for a path in a single short question and stop until they answer.
+- If the call works, run the version check described in Step 3 now, so that it happens on every call to this skill, and then ask the user for a path in a single short question and stop until they answer. When they reply with a path, carry on from Step 2 and don't repeat the version check.
 
 If a path was given but it can't be read as a GitHub repository, ask the user for one in a single short question and stop until they answer.
 
@@ -44,6 +44,8 @@ If it is not set up, tell the user plainly:
 Then stop. Don't fall back to web fetching or guessing the README's contents. The GitHub plugin is how the user has granted access, and it also makes private repositories work.
 
 ## Step 3: Check for a newer version of personify
+
+This check runs on every call to this skill, including a call with no path (in that case Step 1 runs it before asking for a path). A call with `@personify update` does its own version comparison under "Updating personify". If you have already run this check earlier in this conversation, don't run it or mention it again.
 
 Before loading the requested persona, check whether a newer version of this skill has been published. The installed version is the one stated under the title above.
 
